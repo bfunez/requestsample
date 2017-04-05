@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="action_settings">Settings</string>
+    <string name="task_info">Información de la tarea</string>
+    <string name="task_description">Descripción de la tarea</string>
+    <string name="datePlaceholder">12/12/2012</string>
+    <string name="endDate">Fecha Final</string>
+    <string name="deleButton">{fa-trash-o 30sp @color/colorPrimary}</string>
+    <string name="finished">{fa-check 30sp @color/colorPrimary}</string>
+    <string name="notFinished">{fa-ban 30sp @color/colorPrimary}</string>
+</resources>

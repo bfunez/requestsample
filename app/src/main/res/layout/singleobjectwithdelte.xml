@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/object">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <com.joanzapata.iconify.widget.IconTextView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@string/notFinished"
+        android:gravity="center"
+        android:padding="5dp"
+        android:id="@+id/iconT"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true" />
+    <org.sufficientlysecure.htmltextview.HtmlTextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/iconT"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:text="adfasdfasdfasdfkj;lkajsdflajsdf;klafjka;sdf"
+        android:layout_toStartOf="@+id/deleteT"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true" />
+    <com.joanzapata.iconify.widget.IconTextView
+        android:layout_width="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        android:text="@string/deleButton"
+        android:gravity="center"
+        android:padding="5dp"
+        android:id="@+id/deleteT"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/unselectedTab"
+        android:layout_alignParentBottom="true"/>
+</LinearLayout>
